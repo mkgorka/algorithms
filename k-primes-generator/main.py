@@ -1,9 +1,7 @@
 import math
-import time
+
 
 def count_Kprimes(k, start, nd):
-    start_time = time.time()
-
     num_lst = [i for i in range(2, nd + 1)]
     element_lst = []
     k_primes = []
@@ -36,4 +34,3 @@ def count_Kprimes(k, start, nd):
             k_primes.append(initial_elem)
 
     return k_primes
-  
