@@ -1,4 +1,5 @@
 def pig_it(text):
+    """Solution for task: https://www.codewars.com/kata/520b9d2ad5c005041100000f"""
     suffix = "ay"
     text_splt = text.split(" ")
     result = []
