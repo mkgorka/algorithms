@@ -1,12 +1,15 @@
 def is_merge(s, part1, part2):
+    """Solution for https://www.codewars.com/kata/54c9fcad28ec4c6e680011aa
+    Checks if a given string s can be formed from two other given strings - part1 and part2
+    so that characters in part1 and part2 are in the same order as in given string s."""
     result = ""
-    total_length = len(part1) + len(part2)
-    deposit = []
-    p1_splt = [i for i in part1]
-    p2_splt = [j for j in part2]
+    total_length: int = len(part1) + len(part2)
+    deposit: list = []
+    p1_splt: list = [i for i in part1]
+    p2_splt: list = [j for j in part2]
 
     if not s:
-        result = "Value is not what was expected"
+        result = 'Value is not what was expected'
 
     if len(s) == total_length:
         for idx, el in enumerate(s):
