@@ -1,5 +1,9 @@
 def dashatize(n: int):
+<<<<<<< HEAD
     """Solution for the challenge: https://www.codewars.com/kata/58223370aef9fc03fd000071"""
+=======
+    """Solution for Codewars challenge: https://www.codewars.com/kata/58223370aef9fc03fd000071"""
+>>>>>>> ac8335b1cb76d6821cce8143a01ecfd3e43d11f6
     n_str = [int(x) for x in str(n)]
     result_list = [str(n_str[0])]
 
